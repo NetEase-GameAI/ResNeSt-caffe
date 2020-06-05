@@ -25,7 +25,9 @@
 
   - Some ops may be more friendly for PyTorch, while less for Caffe.
 
-  - We test on GTX-10180Ti while the latency in paper tested on Tesla-V100.
+  - We test on GTX-1080Ti while the latency in paper tested on Tesla-V100.
+
+- Need [bvlc-caffe](https://github.com/BVLC/caffe) and Permute layer from [ssd-caffe](https://github.com/weiliu89/caffe/tree/ssd).
 
 ### Evaluation Tools
 
